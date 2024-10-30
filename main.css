@@ -1,0 +1,33 @@
+body {
+    font-family: Tahoma, Arial;
+}
+.switch {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.switch li {
+    padding: 10px;
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    min-width: 100px;
+}
+.switch li.active,
+.switch li:hover {
+    background-color: #636161;
+    color: white;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+}
+.gallery img {
+    margin: 0 5px 10px;
+    transition: 0.3s;
+}
